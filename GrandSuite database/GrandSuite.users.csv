@@ -1,0 +1,5 @@
+_id,name,email,password,role
+68b74f94df8fb3a25a8d8cb7,Aashir Khan,aashirkhan@gmail.com,aashir123,admin
+68b74fc1df8fb3a25a8d8cb8,Wahab Khan,wahabkhan@gmail.com,wahab123,admin
+68b74fefdf8fb3a25a8d8cb9,Ameet Kumar,ameet@gmail.com,ameet123,admin
+68b75011df8fb3a25a8d8cba,Ali,ali@gmail.com,ali123,admin

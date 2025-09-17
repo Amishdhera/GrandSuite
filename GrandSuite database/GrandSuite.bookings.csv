@@ -1,0 +1,3 @@
+_id,fullName,email,checkIn,checkOut,roomType,guests,specialRequests,createdAt,updatedAt,__v
+68bb4518b839e046c313e578,Ameet kumar Dhera,ameetdhera@gmail.com,2025-09-07T00:00:00.000Z,2025-09-11T00:00:00.000Z,Luxury,2,wifi an breakfast lundray ,2025-09-05T20:16:24.802Z,2025-09-05T20:16:24.802Z,0
+68c48b6cfbacfa434143ef99,aashir,aashir@gmail.com,2025-09-15T00:00:00.000Z,2025-09-17T00:00:00.000Z,Luxury,1,wifi,2025-09-12T21:06:52.232Z,2025-09-12T21:06:52.232Z,0

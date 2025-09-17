@@ -1,0 +1,10 @@
+_id,name,base_price,capacity
+68b7513edf8fb3a25a8d8cbd,Twin Room,4000,2
+68b7513edf8fb3a25a8d8cbe,Deluxe Room,5000,2
+68b7513edf8fb3a25a8d8cbf,Single Room,3000,1
+68b7513edf8fb3a25a8d8cc0,Presidential Suite,20000,4
+68b7513edf8fb3a25a8d8cc1,Double Room,4500,2
+68b7513edf8fb3a25a8d8cc2,Connecting Rooms,8000,4
+68b7513edf8fb3a25a8d8cc3,Suite,10000,3
+68b7513edf8fb3a25a8d8cc4,Accessible Room,3500,2
+68b7513edf8fb3a25a8d8cc5,Standard Room,2500,2
