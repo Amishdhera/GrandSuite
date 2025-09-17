@@ -83,6 +83,14 @@ function AdminDashboard() {
               Add Room
             </button>
           </li>
+          <li className="nav-item mb-2">
+            <button
+              onClick={() => setActivePage("feedbacks")}
+              className="btn btn-link nav-link text-white"
+            >
+              Feedbacks
+            </button>
+          </li>
         </ul>
       </div>
 

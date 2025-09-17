@@ -14,6 +14,7 @@ import AddRoom from "./pages/admin/AddRoom.jsx";
 import RoomsList from "./pages/admin/RoomsList.jsx";
 import Booking from "./pages/Booking.jsx";
 import Feedback from "./pages/Feedback.jsx";
+import AdminFeedbacks from "./pages/admin/Adminfeedbacks.jsx"
 
 
 
@@ -52,6 +53,8 @@ function App() {
           <Route path="/admin/bookings" element={<AdminBookings />} />
           <Route path="/admin/add-room" element={<AddRoom />} />
           <Route path="/admin/rooms" element={<RoomsList />} />
+          <Route path="/admin/feedbacks" element={<AdminFeedbacks />} />
+
 
           {/* ✅ Reception ke liye */}
 
