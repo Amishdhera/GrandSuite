@@ -116,7 +116,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Aashir Khan</h5>
-              <p className="text-light">Manager</p>
+              <p className="text-light">Admin</p>
             </div>
 
             <div className="col-md-3 text-center">
@@ -128,7 +128,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Wahab Khan</h5>
-              <p className="text-light">Receptionist</p>
+              <p className="text-light">Owner</p>
             </div>
 
             <div className="col-md-3 text-center">
@@ -140,7 +140,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Ali Muhammad</h5>
-              <p className="text-light">Admin</p>
+              <p className="text-light">Manager</p>
             </div>
 
             <div className="col-md-3 text-center">
@@ -152,7 +152,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Ameet Kumar Dhera</h5>
-              <p className="text-light">Owner</p>
+              <p className="text-light">Reciption</p>
             </div>
           </div>
         </div>

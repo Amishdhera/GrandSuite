@@ -22,10 +22,8 @@ import AdminFeedbacks from "./pages/admin/Adminfeedbacks.jsx"
 
 function Layout({ children }) {
   const location = useLocation();
-
   // Agar path "/admin" se start hota hai to Navbar/Footer mat dikhana
   const hideLayout = location.pathname.startsWith("/admin");
-
   return (
     <>
       {!hideLayout && <Navbar />}
