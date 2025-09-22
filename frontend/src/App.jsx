@@ -15,6 +15,7 @@ import RoomsList from "./pages/admin/RoomsList.jsx";
 import Booking from "./pages/Booking.jsx";
 import Feedback from "./pages/Feedback.jsx";
 import AdminFeedbacks from "./pages/admin/Adminfeedbacks.jsx"
+import Register from "./pages/admin/Register.jsx";
 
 
 
@@ -45,6 +46,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="feedback" element={<Feedback />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
 
           {/* Admin Pages */}
           <Route path="/admin/dashboard" element={<AdminDashboard />} />

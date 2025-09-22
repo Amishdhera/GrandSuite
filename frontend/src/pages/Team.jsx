@@ -1,80 +1,4 @@
-// import React from "react";
 
-// function Team() {
-//   return (
-//     <div className="bg-light">
-//       {/* Banner */}
-//       <div
-//         className="text-white text-center d-flex align-items-center justify-content-center"
-//         style={{
-//           backgroundImage: "url('/images/office.jpg')",
-//           backgroundSize: "cover",
-//           backgroundPosition: "center",
-//           minHeight: "40vh",
-//         }}
-//       >
-//         <h1 className="display-4 fw-bold bg-dark bg-opacity-50 p-3 rounded">
-//           Meet Our Team
-//         </h1>
-//       </div>
-
-//       {/* Team Members */}
-//       <section className="container my-5">
-//         <div className="row g-4">
-//           <div className="col-md-3 text-center">
-//             <img
-//               src="/images/ashir.webp"
-//               alt="Aashir Khan"
-//               className="rounded-circle mb-3 shadow"
-//               width="150"
-//               height="150"
-//             />
-//             <h5 className="fw-bold">Aashir Khan</h5>
-//             <p className="text-muted">Manager</p>
-//           </div>
-
-//           <div className="col-md-3 text-center">
-//             <img
-//               src="/images/wahab khan.jpg"
-//               alt="Wahab Khan"
-//               className="rounded-circle mb-3 shadow"
-//               width="150"
-//               height="150"
-//             />
-//             <h5 className="fw-bold">Wahab Khan</h5>
-//             <p className="text-muted">Receptionist</p>
-//           </div>
-
-//           <div className="col-md-3 text-center">
-//             <img
-//               src="/images/Ali.jpg"
-//               alt="Ali Muhammad"
-//               className="rounded-circle mb-3 shadow"
-//               width="150"
-//               height="150"
-//             />
-//             <h5 className="fw-bold">Ali Muhammad</h5>
-//             <p className="text-muted">Admin</p>
-//           </div>
-
-//           <div className="col-md-3 text-center">
-//             <img
-//               src="/images/ameet (1).png"
-//               alt="Ameet Kumar"
-//               className="rounded-circle mb-3 shadow"
-//               width="150"
-//               height="150"
-//             />
-//             <h5 className="fw-bold">Ameet Kumar Dhera</h5>
-//             <p className="text-muted">Owner</p>
-//           </div>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// }
-
-// export default Team;
 import React from "react";
 
 function Team() {
@@ -116,7 +40,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Aashir Khan</h5>
-              <p className="text-light">Admin</p>
+              <p className="text-light">Reciption</p>
             </div>
 
             <div className="col-md-3 text-center">
@@ -140,7 +64,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Ali Muhammad</h5>
-              <p className="text-light">Manager</p>
+              <p className="text-light">Admin</p>
             </div>
 
             <div className="col-md-3 text-center">
@@ -152,7 +76,7 @@ function Team() {
                 height="150"
               />
               <h5 className="fw-bold">Ameet Kumar Dhera</h5>
-              <p className="text-light">Reciption</p>
+              <p className="text-light">Manager</p>
             </div>
           </div>
         </div>
