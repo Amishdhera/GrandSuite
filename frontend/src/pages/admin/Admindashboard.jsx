@@ -5,7 +5,7 @@ import BookingsTable from "./BookingsTable.jsx.jsx";
 import AddRoom from "./AddRoom.jsx";
 import RoomsList from "./RoomsList.jsx";
 import UsersList from "./UsersList.jsx";
-
+import AdminFeedbacks from "./Adminfeedbacks.jsx";
 
 function AdminDashboard() {
   const navigate = useNavigate();
@@ -118,6 +118,7 @@ function AdminDashboard() {
         {activePage === "calendar" && <BookingsCalendar />}
         {activePage === "rooms" && <RoomsList />}
         {activePage === "addRoom" && <AddRoom />}
+        {activePage === "feedbacks" && <AdminFeedbacks />}
       </div>
     </div>
   );
