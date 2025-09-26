@@ -31,6 +31,7 @@ app.use("/api/rooms", roomRoutes);
 app.use("/api/feedback", feedbackRoutes);
 
 // ------------------------
+
 //  Admin Schema & Model
 // ------------------------
 const adminSchema = new mongoose.Schema({
@@ -44,9 +45,15 @@ const Admin = mongoose.model("admins", adminSchema);
 //  Login Route
 // ------------------------
 app.post("/api/auth/login", async (req, res) => {
+  console.log("yes baceknd connected : ");
+
+  console.log("yes baceknd connected : ", req.body);
   const { email, password } = req.body;
   try {
+
     const admin = await Admin.findOne({ email });
+    console.log("yes baceknd connected : ");
+
     if (!admin || admin.password !== password) {
       return res.status(401).json({ success: false, message: "Invalid credentials" });
     }

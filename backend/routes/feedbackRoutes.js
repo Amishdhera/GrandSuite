@@ -7,10 +7,10 @@ const router = express.Router();
 router.post("/", async (req, res) => {
   try {
     const feedback = new Feedback(req.body);
-    console.log("feedback data:", feedback);
+    // console.log("feedback data:", feedback);
 
     const insertData = await feedback.save();
-    console.log("insert data:", insertData);
+    // console.log("insert data:", insertData);
 
     res.json({ success: true, message: "Feedback saved!", feedback });
   } catch (err) {
@@ -23,12 +23,13 @@ router.post("/", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const feedbacks = await Feedback.find().sort({ createdAt: -1 });
-    res.json({ success: true, feedbacks }); // 👈 object ke andar hai
+    console.log("Fetched feedbacks:", feedbacks);
+    res.json({ success: true, feedbacks });
   } catch (err) {
+    console.log("yai error ya hai:", err);
     res.status(500).json({ success: false, message: "Server error" });
   }
 });
-
 
 // DELETE feedback (for admin)
 router.delete("/:id", async (req, res) => {

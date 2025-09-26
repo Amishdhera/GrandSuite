@@ -71,7 +71,8 @@ function AdminFeedbacks() {
   // Fetch feedbacks
   const fetchFeedbacks = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/feedbacks"); // ✅ fixed
+      const res = await fetch("http://localhost:5000/api/feedback"); // ✅ fixed
+      
       const data = await res.json();
       setFeedbacks(data.feedbacks || []); 
     } catch (err) {
